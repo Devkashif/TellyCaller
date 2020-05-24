@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context=".Create_Customer">
+
+    <include
+        android:id="@+id/tbr"
+        layout="@layout/tobar"/>
+
+    <ProgressBar
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbr"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="57dp"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/incusname"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="46dp"
+            android:autofillHints="@string/bottom_sheet_behavior"
+            android:background="@drawable/input"
+            android:inputType="textAutoCorrect"
+            android:paddingLeft="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:text="Mobile"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mnum"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="110dp"
+            android:paddingLeft="12dp"
+            android:background="@drawable/input"
+            android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="179dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/input"
+        android:layout_marginLeft="119dp"
+        android:paddingLeft="12dp"
+        android:layout_marginTop="170dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="232dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:text="Address"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addres"
+        android:layout_width="288dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/input"
+        android:gravity="top|left"
+        android:layout_marginLeft="119dp"
+        android:paddingLeft="12dp"
+        android:layout_marginTop="230dp" />
+
+
+    <Button
+        android:id="@+id/crtbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Create Customer"
+        android:layout_marginVertical="380dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+</RelativeLayout>

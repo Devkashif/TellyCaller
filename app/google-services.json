@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471391054719",
+    "firebase_url": "https://tellycaller-3af0c.firebaseio.com",
+    "project_id": "tellycaller-3af0c",
+    "storage_bucket": "tellycaller-3af0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471391054719:android:f3db4ad2290926f7c1484a",
+        "android_client_info": {
+          "package_name": "com.example.tellycaller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471391054719-tf6p3v65g2ems12echbi8bfh6jan5kva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tellycaller",
+            "certificate_hash": "7dcee6d8670d700f6f3a5bde61dc2994bb780389"
+          }
+        },
+        {
+          "client_id": "471391054719-e5kk707n64vq6sf6ku08j7rvohk78vk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BPD9lAPqKuOiimpPOGTZ3UeKMRMvKew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471391054719-e5kk707n64vq6sf6ku08j7rvohk78vk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
